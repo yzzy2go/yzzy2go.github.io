@@ -8,7 +8,9 @@
 		<link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<link rel="stylesheet" href="style.css">
+		<script src="main.js"></script>
 		<link href="http://fonts.googleapis.com/css?family=Roboto|Roboto+Mono&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
     <!--- Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> --->
     <title>Yzabelle Go Portfolio</title>
@@ -18,48 +20,57 @@
     <div class="resume_button">
       <a href="resume.pdf" target="_blank" rel="noopener noreferrer"  style="color:grey;">Resume</a>
       </div>
-    <h5 style="margin: 0px 56px 0px;">Visual Designer</h5>
+		<div style="margin: 0px 56px 0px;" id="parent">Developer. Designer.</div>
 
   </header>
+
   <body>
 		<div class="page_margin">
 		<div class="container-fluid">
 			<div class="row">
-		<div class="col-md-6">
+				<div class="col-md-6">
+					<div class="container_home">
+						<img src="imgs/Bunch-home.png" alt="View Bunch" style="width:100%">
+						<div class="overlay" onClick="location.href='Bunch.html'"></div>
+						<a href = "RocketryWorkshop.html"class="overlay_text">Bunch</a>
+					</div>
+				</div>
+			<div class="col-md-6">
 				<div class="container_home">
 					<img src="imgs/Bluecat-home.png" alt="View BlueCat" style="width:100%">
 					<div class="overlay" onClick="location.href='BlueCat.html'"></div>
 					<a href = "BlueCat.html"class="overlay_text">BlueCat</a>
+				</div>
+			</div>
+		</div>
 
+		<div class="row">
+			<div class="col-md-6">
+				<div class="container_home">
+					<img src="imgs/Seneca-home.png" alt="View Seneca College" style="width:100%">
+					<div class="overlay" onClick="location.href='SenecaCollege.html'"></div>
+					<a href = "SenecaCollege.html"class="overlay_text">Seneca College</a>
 				</div>
 			</div>
 			<div class="col-md-6">
-			<div class="container_home">
-				<img src="imgs/Buddy-home.png" alt="View Better Buddy" style="width:100%">
-				<div class="overlay" onClick="location.href='BetterBuddy.html'"></div>
-				<a href = "BetterBuddy.html"class="overlay_text">BetterBuddy</a>
-
+				<div class="container_home">
+					<img src="imgs/Buddy-home.png" alt="View Better Buddy" style="width:100%">
+					<div class="overlay" onClick="location.href='BetterBuddy.html'"></div>
+					<a href = "BetterBuddy.html"class="overlay_text">BetterBuddy</a>
+				</div>
 			</div>
 		</div>
-		</div>
+
 		<div class="row">
-		<div class="col-md-6">
-			<div class="container_home">
-				<img src="imgs/Seneca-home.png" alt="View Seneca College" style="width:100%">
-				<div class="overlay" onClick="location.href='SenecaCollege.html'"></div>
-				<a href = "SenecaCollege.html"class="overlay_text">Seneca College</a>
-
+			<div class="col-md-6">
+				<div class="container_home">
+					<img src="imgs/Rocketry-home.png" alt="View RocketryWorkshop" style="width:100%">
+					<div class="overlay" onClick="location.href='RocketryWorkshop.html'"></div>
+					<a href = "RocketryWorkshop.html"class="overlay_text">Rocketry Workshop</a>
+				</div>
 			</div>
 		</div>
-		<div class="col-md-6">
-		<div class="container_home">
-			<img src="imgs/Rocketry-home.png" alt="Snow" style="width:100%">
-			<div class="overlay" onClick="location.href='RocketryWorkshop.html'"></div>
-			<a href = "RocketryWorkshop.html"class="overlay_text">Rocketry Workspace</a>
 
-		</div>
-		</div>
-		</div>
 		</div>
 		</div>
 
@@ -78,6 +89,7 @@
 	</a>
   </div>
     <h6>&copy; 2020 Yzabelle Go</h6>
+		<div style="padding-bottom: 10px"></div>
 </footer>
 
 </html>
